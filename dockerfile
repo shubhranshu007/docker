@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN apt-get install nginx
+RUN apt-get update && apt-get install tree
